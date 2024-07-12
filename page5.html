@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Restaurant Name</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">Our Menu</a></li>
+                <li><a href="page3.html">Our Chefs</a></li>
+                <li><a href="page4.html">Reservations</a></li>
+                <li><a href="page5.html">About Us</a></li>
+                <li><a href="page6.html">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about-section">
+        <h1>About Us</h1>
+        <p>Welcome to our restaurant! We are committed to providing the best dining experience for you and your loved ones. Our chefs use the freshest ingredients to create delicious meals that will delight your taste buds.</p>
+    </section>
+    <section class="comments-section">
+        <h2>Customer Comments</h2>
+        <div class="comments-carousel">
+            <div class="comment" id="comment1">"Amazing food and wonderful service!" - John Doe</div>
+            <div class="comment" id="comment2">"The ambiance was perfect for a family dinner." - Jane Smith</div>
+            <div class="comment" id="comment3">"Best dining experience ever!" - Emily Johnson</div>
+           
+        </div>
+        <button class="prev" onclick="prevComment()">&#10094;</button>
+        <button class="next" onclick="nextComment()">&#10095;</button>
+    </section>
+    <a href="page6.html" class="next-page-button">Next Page</a>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
